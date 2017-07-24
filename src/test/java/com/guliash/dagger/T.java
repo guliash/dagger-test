@@ -9,7 +9,7 @@ import org.junit.Test;
  * Hierarchy of simple components can't have same scopes.
  * See https://github.com/google/dagger/blob/391aeebf4fff0af03bfadb10121455592cbbba6d/javatests/dagger/internal/codegen/GraphValidationScopingTest.java#L289).
  */
-public class SameScopesInComponentHierarchyUsingDependencies {
+public class T {
 
     @ScopeA
     @Component
