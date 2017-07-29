@@ -12,6 +12,7 @@ buildscript {
 
 apply plugin: "java"
 apply plugin: "net.ltgt.apt"
+apply plugin: 'application'
 
 repositories {
   mavenCentral()
@@ -27,3 +28,5 @@ dependencies {
   testCompile "junit:junit:4.12"
   testApt "com.google.dagger:dagger-compiler:2.11"
 }
+
+mainClassName = "com.guliash.dagger.Main"
